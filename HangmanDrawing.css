@@ -1,0 +1,14 @@
+.hangman-svg circle,
+.hangman-svg line {
+  stroke: black;
+  stroke-width: 2;
+  fill: transparent;
+}
+
+.hangman-svg .visible {
+  display: initial; 
+}
+
+.hangman-svg .hidden {
+  display: none; 
+}

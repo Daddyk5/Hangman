@@ -1,0 +1,26 @@
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 600px; /* Set maximum width for the keyboard */
+    margin: 0 auto; /* Center the keyboard horizontally */
+  }
+  
+  .key {
+    margin: 10px;
+    padding: 20px;
+    font-size: 24px; /* Increase font size */
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+  }
+  
+  .key:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .key.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

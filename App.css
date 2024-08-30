@@ -1,0 +1,21 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .game-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .game-info {
+    margin-left: 20px; /* Adjust as needed */
+  }
+  
+  .game-over-message {
+    text-align: center;
+  }
+  
